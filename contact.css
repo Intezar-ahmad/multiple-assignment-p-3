@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+a{
+    text-decoration: none;
+}
+body{
+    max-width: 1440px;
+    background-color:  #f3ebeb;
+    overflow: hidden;  
+    margin: auto;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+/* designing the logo */
+nav div img{
+    width: 150px;
+}
+/* designing the navigation menu links */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    
+}
+nav a{
+    color: #000000;
+}
+
+nav ul li a:hover{
+    font-weight: 700;
+    color:#20bc7e;
+}
+main{
+    height: 100vh;
+    margin: auto;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px; 
+}
+input{
+    border: none;
+    width: 100%; 
+    padding: 5px;       
+    margin-bottom: 8px;
+}
+.contact-form h1{
+    font-weight: 600;
+    margin: 8px;
+    text-align: center;
+}
+.contact-form textarea{
+    width: 100%;
+    border: none;   
+}
+.contact-form button{
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: #20bc7e;
+    color: #ffffff;
+    border-radius: 5px;    
+}
+
+
